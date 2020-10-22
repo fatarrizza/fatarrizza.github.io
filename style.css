@@ -1,0 +1,142 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: palevioletred;
+}
+
+/* Nav */
+nav .logo :hover{
+  color: white;
+}
+
+nav :hover {
+  color: white;
+}
+
+nav {
+  display: flex;
+  background-color: aqua;
+  justify-content: space-around;
+  padding: 20px;
+  color: blueviolet;
+}
+
+
+
+nav .logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 40%;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+nav ul li a {
+  color: #c23fac;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+
+#intro h1 {
+  text-align: center;
+  color: #0fccda;
+}
+
+#intro h3 {
+  text-align: center;
+  color: #eaee0d;
+}
+
+#intro p {
+  text-align: center;
+  color: aqua;
+  margin: 20px;
+  text-shadow: yellow;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+#image {
+  display: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+a:hover {
+  color: yellow
+}
+
+a {
+  text-decoration: none;
+  display: inline-flex;
+  font-size: 20px;
+  font-weight: bold;
+  text-align:center;
+  display: inline-block;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  font-size: 20px;
+  background-color: #5c969e;
+  padding: 5px;
+  color: #FFF;
+  width: 100%;
+}
+
+#footer h3 {
+  text-align: right;
+  padding-right: 30px;
+}
+
+#footer p {
+  text-align: right;
+  padding: 30px;
+}
+
+/* ini punya form */
+
+ 
+.login {
+  padding: 1em;
+  margin: 2em auto;
+  width: 17em;
+  background: #fff;
+  border-radius: 3px;
+}
+ 
+label {
+  font-size: 10pt;
+  color: #555;
+}
+ 
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 8px;
+  width: 95%;
+  background: #efefef;
+  border: 0;
+  font-size: 10pt;
+  margin: 6px 0px;
+}
+ 
+.tombol {
+  background: #3498db;
+  color: #fff;
+  border: 0;
+  padding: 5px 8px;
+}
