@@ -47,6 +47,20 @@ nav ul li a {
   font-weight: bold;
   
 }
+/* 
+intro */
+
+#intro h1:hover{
+  color: #efefef;
+  background-color: aqua;
+  cursor:crosshair;
+}
+
+#intro p:hover {
+  color: palevioletred;
+  background-color: powderblue;
+  cursor: -webkit-zoom-in
+}
 
 #intro h1 {
   text-align: center;
@@ -68,9 +82,7 @@ nav ul li a {
 }
 
 #image {
-  display: absolute;
-  margin-left: auto;
-  margin-right: auto;
+  display: sticky;
   width: 25%;
 }
 
@@ -83,7 +95,8 @@ a {
   display: inline-flex;
   font-size: 20px;
   font-weight: bold;
-  text-align:center;
+  text-align: center;
+  position: center;
   display: inline-block;
 }
 
@@ -139,4 +152,29 @@ textarea {
   color: #fff;
   border: 0;
   padding: 5px 8px;
+}
+
+#navForm {
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+}
+
+#footerForm {
+  position: fixed;
+  bottom: 0;
+  font-size: 20px;
+  background-color: #5c969e;
+  padding: 5px;
+  color: #FFF;
+  width: 100%;
+}
+
+#footerForm h3 {
+  text-align: right;
+  padding-right: 30px;
+}
+
+#footerForm p {
+  text-align: right;
+  padding: 30px;
 }

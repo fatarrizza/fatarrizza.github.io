@@ -9,8 +9,9 @@ function validasi() {
   var email = document.getElementById("email").value;
   var alamat = document.getElementById("alamat").value;
   if (nama != "" && email!="" && alamat !="") {
-    return 'Pendaftaran Berhasil!'
+    alert ('Silahkan menyewa SEMAUMU!')
   }else{
     alert('Data anda kurang lengkap nih!');
   }
 }
+
