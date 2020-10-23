@@ -6,6 +6,7 @@
 body {
   font-family: sans-serif;
   background-color: palevioletred;
+  text-align: center;
 }
 
 /* Nav */
@@ -23,20 +24,22 @@ nav {
   justify-content: space-around;
   padding: 20px;
   color: blueviolet;
+  align-items: center;
 }
 
 
 
 nav .logo {
   font-family: 'Pacifico', cursive;
-  font-size: 40px;
+  font-size: 30px;
+  letter-spacing: 5px;
 }
 
 nav ul {
   display: flex;
   list-style: none;
   width: 40%;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 60px;
 }
 
@@ -52,7 +55,7 @@ intro */
 
 #intro h1:hover{
   color: #efefef;
-  background-color: aqua;
+  background-color: black;
   cursor:crosshair;
 }
 
@@ -69,14 +72,14 @@ intro */
 
 #intro h3 {
   text-align: center;
-  color: #eaee0d;
+  color: blue;
 }
 
 #intro p {
   text-align: center;
   color: aqua;
   margin: 20px;
-  text-shadow: yellow;
+  text-shadow: white;
   line-height: 30px;
   font-weight: bold;
 }
@@ -87,7 +90,7 @@ intro */
 }
 
 a:hover {
-  color: yellow
+  color: white;
 }
 
 a {
@@ -96,28 +99,24 @@ a {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  position: center;
-  display: inline-block;
+  position: relative;
 }
 
 #footer {
-  position: fixed;
-  bottom: 0;
-  font-size: 20px;
-  background-color: #5c969e;
-  padding: 5px;
-  color: #FFF;
+  position: relative;
+  background: #0f3057;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
   width: 100%;
+  margin-top: 100px;
+  padding: 10px;
 }
 
 #footer h3 {
   text-align: right;
   padding-right: 30px;
-}
-
-#footer p {
-  text-align: right;
-  padding: 30px;
+  color: white
 }
 
 /* ini punya form */
@@ -160,21 +159,20 @@ textarea {
 }
 
 #footerForm {
-  position: fixed;
-  bottom: 0;
-  font-size: 20px;
-  background-color: #5c969e;
-  padding: 5px;
-  color: #FFF;
-  width: 100%;
-}
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aqua;
+    color: white;
+    text-align: center;
+  }
 
-#footerForm h3 {
-  text-align: right;
-  padding-right: 30px;
-}
+  /* responsif */
 
-#footerForm p {
-  text-align: right;
-  padding: 30px;
-}
+  @media screen and (max-width: 576px) {
+    nav ul {
+      width: 50%;
+      display: none;
+    }
+  }
